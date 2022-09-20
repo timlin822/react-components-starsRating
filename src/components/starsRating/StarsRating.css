@@ -1,0 +1,24 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+.stars-rating{
+    margin-bottom: 20px;
+}
+.stars-rating input[type=radio]{
+	display: none;
+}
+.stars-rating label{
+	margin-right: 10px;
+}
+.stars-rating label:before{
+	content: "\f005";
+	cursor: pointer;
+	font-family: FontAwesome;
+	font-size: 72px;
+}
+.stars-rating .star-light{
+    cursor: pointer;
+    color: #edbb00;
+}
+.stars-rating .star-dark{
+	cursor: pointer;
+	color: #ddd;
+}
